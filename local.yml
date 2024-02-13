@@ -1,0 +1,3 @@
+---
+- name: Install required ansible-galaxy roles
+  ansible.builtin.command: ansible-galaxy install -r requirements.yaml
